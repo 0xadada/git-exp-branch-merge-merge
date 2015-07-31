@@ -4,7 +4,7 @@ Experiment tests the workflow where there is a master branch, user checks
 out feature branch from master branch. User commits work to feature branch.
 Work continues in parallel in master branch. User on feature branch merges
 master `32836`, does a push to GitHub. Finally `32839` on master, merges
-in feature branch with a squash, and commits the commit message.
+in feature branch with `--no-ff`, and commits the commit message.
 
 
 ```
